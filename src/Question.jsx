@@ -1,13 +1,15 @@
 import React from "react";
 import "./Question.css";
 import { useEffect, useState } from "react";
+import correct from "./assets/correct.wav";
+import wrong from "./assets/wrong.wav";
 
 const Question = ({ question, correct_answer, incorrect_answers, currentQuestionIndex, setCurrentQuestionIndex, totalQuestions, }) => {
   const [shuffledAnswers, setShuffledAnswers] = useState([]);
   const [answerStatus, setAnswerStatus] = useState(null);
 
-  const correctAudio = new Audio('images/mixkit-correct-answer-fast-notification-953.wav');
-  const wrongAudio = new Audio('images/mixkit-wrong-answer-fail-notification-946.wav');
+  const correctAudio = new Audio(correct);
+  const wrongAudio = new Audio(wrong);
 
 
   useEffect(() => {
