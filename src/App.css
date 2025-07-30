@@ -1,0 +1,25 @@
+.AppWrapper {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+  filter: brightness(0.6); 
+  opacity: 1;
+}
+
+.AppContent {
+  position: relative;
+  z-index: 1; 
+  padding: 2rem;
+}

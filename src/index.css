@@ -1,0 +1,12 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../images/5818973-uhd_3840_2160_24fps.mp4');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
