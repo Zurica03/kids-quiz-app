@@ -1,5 +1,7 @@
 {
-  "homepage": "https://your-username.github.io/kids-quiz-app",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
   "name": "quiz_app",
   "private": true,
   "version": "0.0.0",
