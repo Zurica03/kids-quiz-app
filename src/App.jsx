@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="AppWrapper">
       <video autoPlay muted loop playsInline className="bg-video">
-        <source src="../images/stary-nights.mp4" type="video/mp4" />
+        <source src="/images/stary-nights.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
